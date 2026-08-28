@@ -164,11 +164,33 @@ Restaure o `rechan.exe` original e remova:
 
 ## Before / After · Antes / Depois
 
-Compare the original ReChan image with **ReChan CRT 90s Consumer** using the interactive slider.
+### Gameplay
 
-Compare a imagem original do ReChan com o **ReChan CRT 90s Consumer** usando a barra interativa.
+<table>
+  <tr>
+    <th width="50%">Original / Original</th>
+    <th width="50%">ReChan CRT 90s Consumer</th>
+  </tr>
+  <tr>
+    <td><img src="assets/rechan-original-gameplay.png" alt="Original ReChan gameplay"></td>
+    <td><img src="assets/rechan-crt-90s-consumer-gameplay.png" alt="ReChan CRT 90s Consumer gameplay"></td>
+  </tr>
+</table>
 
-**[Open interactive comparison / Abrir comparação interativa](https://l3x4rs.github.io/ReChan-CRT-90s-Consumer/compare.html)**
+### Destination Select / Seleção de destino
+
+<table>
+  <tr>
+    <th width="50%">Original / Original</th>
+    <th width="50%">ReChan CRT 90s Consumer</th>
+  </tr>
+  <tr>
+    <td><img src="assets/rechan-original-destination-select.png" alt="Original ReChan destination select"></td>
+    <td><img src="assets/rechan-crt-90s-consumer-destination-select.png" alt="ReChan CRT 90s Consumer destination select"></td>
+  </tr>
+</table>
+
+<sub>Interactive slider / Comparação interativa: https://l3x4rs.github.io/ReChan-CRT-90s-Consumer/compare.html</sub>
 
 ## Compatibility / Compatibilidade
 
