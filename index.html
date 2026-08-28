@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ReChan CRT 90s Consumer — Before / After</title>
+<style>
+:root{color-scheme:dark;--bg:#0d1117;--panel:#161b22;--text:#f0f6fc;--muted:#8b949e;--line:#30363d}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+main{width:min(1180px,94vw);margin:48px auto 80px}
+header{text-align:center;margin-bottom:36px}
+h1{font-size:clamp(2rem,5vw,3.4rem);margin:.2em 0}
+.subtitle{color:var(--muted);font-size:1.05rem}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px;margin:24px 0}
+h2{margin:0 0 14px;font-size:1.15rem}
+.compare{position:relative;overflow:hidden;border-radius:10px;aspect-ratio:16/9;background:#000;user-select:none}
+.compare img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.before-wrap{position:absolute;inset:0 auto 0 0;overflow:hidden;height:100%;width:50%}
+.before{max-width:none!important}
+.divider{position:absolute;top:0;bottom:0;left:50%;width:2px;background:#fff;transform:translateX(-1px);pointer-events:none}
+.handle{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);display:grid;place-items:center;width:44px;height:44px;border-radius:50%;background:#fff;color:#111;font-weight:900;box-shadow:0 2px 12px #0009}
+.slider{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:ew-resize;margin:0}
+.label{position:absolute;top:14px;padding:7px 10px;border-radius:999px;background:#000c;font-size:.74rem;font-weight:800;letter-spacing:.08em}
+.label.before-label{left:14px}.label.after-label{right:14px}
+footer{text-align:center;color:var(--muted);margin-top:36px;font-size:.9rem}
+</style>
+</head>
+<body>
+<main>
+<header>
+<h1>ReChan CRT 90s Consumer</h1>
+<div class="subtitle">Interactive Before / After · Arraste a barra para comparar</div>
+</header>
+
+<section class="card">
+<h2>Gameplay</h2>
+<div class="compare">
+<img class="after" src="assets/rechan-crt-90s-consumer-gameplay.png" alt="Gameplay with ReChan CRT 90s Consumer">
+<div class="before-wrap"><img class="before" src="assets/rechan-original-gameplay.png" alt="Original ReChan gameplay"></div>
+<div class="divider"><span class="handle">↔</span></div>
+<input class="slider" type="range" min="0" max="100" value="50" aria-label="Gameplay before and after comparison">
+<span class="label before-label">BEFORE</span><span class="label after-label">AFTER</span>
+</div>
+</section>
+
+<section class="card">
+<h2>Destination Select</h2>
+<div class="compare">
+<img class="after" src="assets/rechan-crt-90s-consumer-destination-select.png" alt="Destination Select with ReChan CRT 90s Consumer">
+<div class="before-wrap"><img class="before" src="assets/rechan-original-destination-select.png" alt="Original ReChan Destination Select"></div>
+<div class="divider"><span class="handle">↔</span></div>
+<input class="slider" type="range" min="0" max="100" value="50" aria-label="Destination Select before and after comparison">
+<span class="label before-label">BEFORE</span><span class="label after-label">AFTER</span>
+</div>
+</section>
+
+<footer>ReChan CRT 90s Consumer v1.0 · Unofficial community mod</footer>
+</main>
+<script>
+document.querySelectorAll('.compare').forEach(c=>{
+  const slider=c.querySelector('.slider');
+  const wrap=c.querySelector('.before-wrap');
+  const before=c.querySelector('.before');
+  const divider=c.querySelector('.divider');
+  function update(){
+    const v=slider.value;
+    wrap.style.width=v+'%';
+    divider.style.left=v+'%';
+    before.style.width=c.clientWidth+'px';
+    before.style.height=c.clientHeight+'px';
+  }
+  slider.addEventListener('input',update);
+  window.addEventListener('resize',update);
+  update();
+});
+</script>
+</body>
+</html>
