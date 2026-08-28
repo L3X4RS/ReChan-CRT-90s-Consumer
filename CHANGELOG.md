@@ -1,28 +1,23 @@
 # Changelog
 
-## v1.0.4 — Geometry Fix
+## v1.0
 
-- Removed the warp/ripple geometry responsible for visible frame-edge distortions.
-- Preserved the FINAL v2 color, scanline, mask and brightness profile.
-- Kept subtle chromatic treatment without physical tube-border deformation.
-- Current recommended public build.
+### English
+- First public release of ReChan CRT 90s Consumer.
+- Refined CRT scanlines and vertical phosphor-style mask.
+- Tuned color response and midtones.
+- Subtle chromatic treatment.
+- No temporal ghosting.
+- No heavy vignette.
+- No fake 240p downsample.
+- Clean frame edges without visible border deformation.
 
-## v1.0.3 — Full Border Fix
-
-- Extended edge protection to the complete frame.
-- Reduced top/bottom border artifacts.
-
-## v1.0.2 — Lateral Edge Hotfix 2
-
-- Improved left/right edge sampling.
-- Reduced lateral stretching near the frame borders.
-
-## v1.0.1 — Edge Fix
-
-- Initial border artifact mitigation.
-
-## v1.0 — FINAL v2
-
-- Selected 90s Consumer visual profile.
-- Tuned scanlines, mask, color balance and midtones.
-- No ghosting and no heavy vignette.
+### Português
+- Primeira versão pública do ReChan CRT 90s Consumer.
+- Scanlines CRT refinadas e máscara vertical de fósforo.
+- Resposta de cores e médios ajustados.
+- Tratamento cromático sutil.
+- Sem ghosting temporal.
+- Sem vinheta pesada.
+- Sem falso downsample para 240p.
+- Bordas limpas, sem deformação visível no contorno.
