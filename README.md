@@ -159,7 +159,16 @@ Restaure o `rechan.exe` original e remova:
 ~mods\90s Consumer\
 ```
 
+
 ---
+
+## Before / After · Antes / Depois
+
+Compare the original ReChan image with **ReChan CRT 90s Consumer** using the interactive slider.
+
+Compare a imagem original do ReChan com o **ReChan CRT 90s Consumer** usando a barra interativa.
+
+**[Open interactive comparison / Abrir comparação interativa](https://l3x4rs.github.io/ReChan-CRT-90s-Consumer/compare.html)**
 
 ## Compatibility / Compatibilidade
 
