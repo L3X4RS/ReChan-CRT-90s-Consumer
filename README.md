@@ -6,7 +6,7 @@
 
 [![Platform](https://img.shields.io/badge/platform-Windows%20x64-555555?style=flat-square)](#compatibility--compatibilidade)
 [![Renderer](https://img.shields.io/badge/renderer-OpenGL-555555?style=flat-square)](#compatibility--compatibilidade)
-[![Release](https://img.shields.io/badge/release-v1.0-555555?style=flat-square)](RELEASE_NOTES_v1.0.md)
+[![Release](https://img.shields.io/badge/release-v1.1-555555?style=flat-square)](RELEASE_NOTES_v1.1.md)
 [![License](https://img.shields.io/badge/license-MIT-555555?style=flat-square)](LICENSE)
 
 **English · Português**
@@ -27,9 +27,12 @@ The goal is not to make the game artificially low-resolution. The goal is to mak
 
 ## Visual profile
 
-- Refined CRT scanlines
-- Subtle vertical phosphor / aperture-style mask
-- Mild RGB separation
+- Luminance-reactive CRT beam and refined scanlines
+- Stable raster behavior
+- Sharper luminance than chroma for a more analog consumer-video character
+- Mild horizontal chroma softness and very subtle color bleed
+- Subtle highlight beam / phosphor spread
+- Gentle RGB phosphor-style mask
 - Slightly lifted midtones while retaining dark blacks
 - Vivid but controlled color response
 - Very light analog noise and flicker
@@ -41,11 +44,11 @@ The goal is not to make the game artificially low-resolution. The goal is to mak
 
 ## Current release
 
-### v1.0
+### v1.1
 
-This is the first public release of **ReChan CRT 90s Consumer**.
+**v1.1** evolves the CRT presentation toward a more authentic 1990s consumer-TV look while preserving ReChan's normal rendering resolution and the clean image character established in v1.0.
 
-See: [Release Notes](RELEASE_NOTES_v1.0.md) · [Changelog](CHANGELOG.md)
+See: [Release Notes](RELEASE_NOTES_v1.1.md) · [Changelog](CHANGELOG.md)
 
 ## Download
 
@@ -100,9 +103,12 @@ A proposta não é deixar o jogo artificialmente em baixa resolução. A ideia �
 
 ## Perfil visual
 
-- Scanlines CRT refinadas
-- Máscara vertical de fósforo / aperture-style sutil
-- Separação RGB leve
+- Feixe CRT e scanlines reativos à luminância
+- Raster estável
+- Luminância mais definida que a crominância para um caráter mais próximo de vídeo analógico doméstico
+- Suavização horizontal da crominância e bleed de cor muito sutis
+- Pequeno espalhamento de highlights lembrando feixe / fósforo
+- Máscara RGB de fósforo discreta
 - Médios um pouco mais abertos sem perder os pretos
 - Cores vivas, porém controladas
 - Ruído analógico e flicker muito discretos
@@ -114,11 +120,11 @@ A proposta não é deixar o jogo artificialmente em baixa resolução. A ideia �
 
 ## Versão atual
 
-### v1.0
+### v1.1
 
-Esta é a primeira versão pública do **ReChan CRT 90s Consumer**.
+A **v1.1** evolui a apresentação CRT para ficar mais próxima de uma TV doméstica dos anos 90, mantendo a resolução normal do ReChan e a imagem limpa estabelecida na v1.0.
 
-Veja: [Notas da versão](RELEASE_NOTES_v1.0.md) · [Changelog](CHANGELOG.md)
+Veja: [Notas da versão](RELEASE_NOTES_v1.1.md) · [Changelog](CHANGELOG.md)
 
 ## Download
 
@@ -169,7 +175,7 @@ Restaure o `rechan.exe` original e remova:
 <table>
   <tr>
     <th width="50%">Original / Original</th>
-    <th width="50%">ReChan CRT 90s Consumer</th>
+    <th width="50%">ReChan CRT 90s Consumer v1.1</th>
   </tr>
   <tr>
     <td><img src="assets/rechan-original-gameplay.png" alt="Original ReChan gameplay"></td>
@@ -182,7 +188,7 @@ Restaure o `rechan.exe` original e remova:
 <table>
   <tr>
     <th width="50%">Original / Original</th>
-    <th width="50%">ReChan CRT 90s Consumer</th>
+    <th width="50%">ReChan CRT 90s Consumer v1.1</th>
   </tr>
   <tr>
     <td><img src="assets/rechan-original-destination-select.png" alt="Original ReChan destination select"></td>
