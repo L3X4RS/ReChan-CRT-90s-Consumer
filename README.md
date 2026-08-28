@@ -179,7 +179,6 @@ Ele **não** modifica nem inclui dados do jogo de PlayStation.
 ## Credits / Créditos
 
 - **ReChan** — reverse-engineering / reimplementation project by its respective author(s)
-- **newpixie CRT** — original shader by Mattias Gustavsson; relevant MIT notice included in `licenses/`
 - **ReChan CRT 90s Consumer** — ReChan-specific loader, OpenGL post-process port and visual tuning
 
 See / Veja: [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)
