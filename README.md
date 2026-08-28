@@ -52,9 +52,13 @@ See: [Release Notes](RELEASE_NOTES_v1.1.md) · [Changelog](CHANGELOG.md)
 
 ## Download
 
-Binary packages are distributed through **GitHub Releases**:
+### Latest release — v1.1
 
-**[Open Releases](https://github.com/L3X4RS/ReChan-CRT-90s-Consumer/releases)**
+**[⬇ Download ReChan CRT 90s Consumer v1.1](https://github.com/L3X4RS/ReChan-CRT-90s-Consumer/releases/download/v1.1/ReChan_CRT_90s_Consumer_v1.1.zip)**
+
+Previous versions and release history:
+
+**[Open all Releases](https://github.com/L3X4RS/ReChan-CRT-90s-Consumer/releases)**
 
 ## Installation
 
@@ -128,9 +132,13 @@ Veja: [Notas da versão](RELEASE_NOTES_v1.1.md) · [Changelog](CHANGELOG.md)
 
 ## Download
 
-Os pacotes binários são distribuídos pela seção **GitHub Releases**:
+### Versão mais recente — v1.1
 
-**[Abrir Releases](https://github.com/L3X4RS/ReChan-CRT-90s-Consumer/releases)**
+**[⬇ Baixar ReChan CRT 90s Consumer v1.1](https://github.com/L3X4RS/ReChan-CRT-90s-Consumer/releases/download/v1.1/ReChan_CRT_90s_Consumer_v1.1.zip)**
+
+Versões anteriores e histórico de releases:
+
+**[Abrir todas as Releases](https://github.com/L3X4RS/ReChan-CRT-90s-Consumer/releases)**
 
 ## Instalação
 
